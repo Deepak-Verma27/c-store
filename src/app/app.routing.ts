@@ -1,7 +1,5 @@
 import { Routes, RouterModule } from '@angular/router';
-import { ParentComponent } from './parent/parent.component';
 import { HomeComponent } from './home/home.component';
-import { Child1Component } from './child1/child1.component';
 
 
 

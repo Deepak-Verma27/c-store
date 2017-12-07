@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
   }
 
   goSearch(): void {
-    this.router.navigate(['/parent']);
+    this.router.navigate(['/department']);
 
   }
 }

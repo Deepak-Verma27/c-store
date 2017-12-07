@@ -9,9 +9,9 @@ import { CommonModule } from '@angular/common';
 import { SharedComponentModule } from './shared.module';
 
 import { AppComponent } from './app.component';
-import { ParentModule } from './parent/parent.module';
+import { DepartmentModule } from './department/department.module';
 import { HomeComponent } from './home/home.component';
-import { Child_1Module } from './child1/child1.module';
+// import { DepartmentModule } from './departmentDetail/departmentDetail.module';
 import { DialogModule, DataTableModule, SharedModule } from 'primeng/primeng';
 import { ButtonModule } from 'primeng/primeng';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -20,7 +20,8 @@ import { MenuItem } from 'primeng/components/common/api';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NbThemeModule } from '@nebular/theme';
 import { CalendarModule } from 'primeng/primeng';
-import {DataSharedService} from './data.service';
+import { DataSharedService } from './data.service';
+import { DepartmentDetailComponent } from './departmentDetail/departmentDetail.component';
 
 
 
@@ -28,6 +29,7 @@ import {DataSharedService} from './data.service';
   declarations: [
     AppComponent,
     HomeComponent,
+    DepartmentDetailComponent
   ],
   imports: [
     HttpModule,
@@ -39,14 +41,14 @@ import {DataSharedService} from './data.service';
     BrowserAnimationsModule,
     FormsModule,
     AccordionModule,
-    ParentModule,
+    DepartmentModule,
     SharedComponentModule,
     ButtonModule,
     routing,
     DialogModule,
     CommonModule,
     CalendarModule,
-    Child_1Module,
+    DepartmentModule,
     // FormsModule,
     // ReactiveFormsModule
   ],
