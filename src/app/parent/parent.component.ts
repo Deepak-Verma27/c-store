@@ -48,8 +48,7 @@ export class ParentComponent implements OnInit {
   // }
 
   myFunc(): void {
-    this.router.navigate(['edit/Parent']);
-
+    this.router.navigate(['/edit/Parent']);
   }
 
   check(): void {
