@@ -4,12 +4,10 @@ import { ParentComponent } from './parent.component';
 import { CommonModule } from '@angular/common';
 import {ParentEditComponent} from './parent-edit/parent-edit.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {parentEditRouting} from './parent-edit/parent-edit.routing';
 
 @NgModule({
   imports: [
     parentRouting,
-    parentEditRouting,
     CommonModule,
     ReactiveFormsModule,
     FormsModule,
